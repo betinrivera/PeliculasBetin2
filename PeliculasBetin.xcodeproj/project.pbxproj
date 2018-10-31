@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD2A0762189FE1100C21C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2A0752189FE1100C21C8B /* AppDelegate.swift */; };
+		3DD2A0782189FE1100C21C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2A0772189FE1100C21C8B /* ViewController.swift */; };
+		3DD2A07B2189FE1100C21C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2A0792189FE1100C21C8B /* Main.storyboard */; };
+		3DD2A07D2189FE1300C21C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2A07C2189FE1300C21C8B /* Assets.xcassets */; };
+		3DD2A0802189FE1300C21C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2A07E2189FE1300C21C8B /* LaunchScreen.storyboard */; };
+		3DD2A08B2189FE1300C21C8B /* PeliculasBetinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2A08A2189FE1300C21C8B /* PeliculasBetinTests.swift */; };
+		3DD2A0962189FE1300C21C8B /* PeliculasBetinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2A0952189FE1300C21C8B /* PeliculasBetinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD2A0872189FE1300C21C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD2A06A2189FE1100C21C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD2A0712189FE1100C21C8B;
+			remoteInfo = PeliculasBetin;
+		};
+		3DD2A0922189FE1300C21C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD2A06A2189FE1100C21C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD2A0712189FE1100C21C8B;
+			remoteInfo = PeliculasBetin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD2A0722189FE1100C21C8B /* PeliculasBetin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeliculasBetin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD2A0752189FE1100C21C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DD2A0772189FE1100C21C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD2A07A2189FE1100C21C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD2A07C2189FE1300C21C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD2A07F2189FE1300C21C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD2A0812189FE1300C21C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD2A0862189FE1300C21C8B /* PeliculasBetinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeliculasBetinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD2A08A2189FE1300C21C8B /* PeliculasBetinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculasBetinTests.swift; sourceTree = "<group>"; };
+		3DD2A08C2189FE1300C21C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD2A0912189FE1300C21C8B /* PeliculasBetinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeliculasBetinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD2A0952189FE1300C21C8B /* PeliculasBetinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculasBetinUITests.swift; sourceTree = "<group>"; };
+		3DD2A0972189FE1300C21C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD2A06F2189FE1100C21C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A0832189FE1300C21C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A08E2189FE1300C21C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD2A0692189FE1100C21C8B = {
+			isa = PBXGroup;
+			children = (
+				3DD2A0742189FE1100C21C8B /* PeliculasBetin */,
+				3DD2A0892189FE1300C21C8B /* PeliculasBetinTests */,
+				3DD2A0942189FE1300C21C8B /* PeliculasBetinUITests */,
+				3DD2A0732189FE1100C21C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD2A0732189FE1100C21C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2A0722189FE1100C21C8B /* PeliculasBetin.app */,
+				3DD2A0862189FE1300C21C8B /* PeliculasBetinTests.xctest */,
+				3DD2A0912189FE1300C21C8B /* PeliculasBetinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD2A0742189FE1100C21C8B /* PeliculasBetin */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2A0752189FE1100C21C8B /* AppDelegate.swift */,
+				3DD2A0772189FE1100C21C8B /* ViewController.swift */,
+				3DD2A0792189FE1100C21C8B /* Main.storyboard */,
+				3DD2A07C2189FE1300C21C8B /* Assets.xcassets */,
+				3DD2A07E2189FE1300C21C8B /* LaunchScreen.storyboard */,
+				3DD2A0812189FE1300C21C8B /* Info.plist */,
+			);
+			path = PeliculasBetin;
+			sourceTree = "<group>";
+		};
+		3DD2A0892189FE1300C21C8B /* PeliculasBetinTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2A08A2189FE1300C21C8B /* PeliculasBetinTests.swift */,
+				3DD2A08C2189FE1300C21C8B /* Info.plist */,
+			);
+			path = PeliculasBetinTests;
+			sourceTree = "<group>";
+		};
+		3DD2A0942189FE1300C21C8B /* PeliculasBetinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2A0952189FE1300C21C8B /* PeliculasBetinUITests.swift */,
+				3DD2A0972189FE1300C21C8B /* Info.plist */,
+			);
+			path = PeliculasBetinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD2A0712189FE1100C21C8B /* PeliculasBetin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD2A09A2189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetin" */;
+			buildPhases = (
+				3DD2A06E2189FE1100C21C8B /* Sources */,
+				3DD2A06F2189FE1100C21C8B /* Frameworks */,
+				3DD2A0702189FE1100C21C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeliculasBetin;
+			productName = PeliculasBetin;
+			productReference = 3DD2A0722189FE1100C21C8B /* PeliculasBetin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD2A0852189FE1300C21C8B /* PeliculasBetinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD2A09D2189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetinTests" */;
+			buildPhases = (
+				3DD2A0822189FE1300C21C8B /* Sources */,
+				3DD2A0832189FE1300C21C8B /* Frameworks */,
+				3DD2A0842189FE1300C21C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD2A0882189FE1300C21C8B /* PBXTargetDependency */,
+			);
+			name = PeliculasBetinTests;
+			productName = PeliculasBetinTests;
+			productReference = 3DD2A0862189FE1300C21C8B /* PeliculasBetinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DD2A0902189FE1300C21C8B /* PeliculasBetinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD2A0A02189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetinUITests" */;
+			buildPhases = (
+				3DD2A08D2189FE1300C21C8B /* Sources */,
+				3DD2A08E2189FE1300C21C8B /* Frameworks */,
+				3DD2A08F2189FE1300C21C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD2A0932189FE1300C21C8B /* PBXTargetDependency */,
+			);
+			name = PeliculasBetinUITests;
+			productName = PeliculasBetinUITests;
+			productReference = 3DD2A0912189FE1300C21C8B /* PeliculasBetinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD2A06A2189FE1100C21C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3DD2A0712189FE1100C21C8B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3DD2A0852189FE1300C21C8B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DD2A0712189FE1100C21C8B;
+					};
+					3DD2A0902189FE1300C21C8B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DD2A0712189FE1100C21C8B;
+					};
+				};
+			};
+			buildConfigurationList = 3DD2A06D2189FE1100C21C8B /* Build configuration list for PBXProject "PeliculasBetin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD2A0692189FE1100C21C8B;
+			productRefGroup = 3DD2A0732189FE1100C21C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD2A0712189FE1100C21C8B /* PeliculasBetin */,
+				3DD2A0852189FE1300C21C8B /* PeliculasBetinTests */,
+				3DD2A0902189FE1300C21C8B /* PeliculasBetinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD2A0702189FE1100C21C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD2A0802189FE1300C21C8B /* LaunchScreen.storyboard in Resources */,
+				3DD2A07D2189FE1300C21C8B /* Assets.xcassets in Resources */,
+				3DD2A07B2189FE1100C21C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A0842189FE1300C21C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A08F2189FE1300C21C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD2A06E2189FE1100C21C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD2A0782189FE1100C21C8B /* ViewController.swift in Sources */,
+				3DD2A0762189FE1100C21C8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A0822189FE1300C21C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD2A08B2189FE1300C21C8B /* PeliculasBetinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2A08D2189FE1300C21C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD2A0962189FE1300C21C8B /* PeliculasBetinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD2A0882189FE1300C21C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD2A0712189FE1100C21C8B /* PeliculasBetin */;
+			targetProxy = 3DD2A0872189FE1300C21C8B /* PBXContainerItemProxy */;
+		};
+		3DD2A0932189FE1300C21C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD2A0712189FE1100C21C8B /* PeliculasBetin */;
+			targetProxy = 3DD2A0922189FE1300C21C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD2A0792189FE1100C21C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD2A07A2189FE1100C21C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD2A07E2189FE1300C21C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD2A07F2189FE1300C21C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD2A0982189FE1300C21C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD2A0992189FE1300C21C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD2A09B2189FE1300C21C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD2A09C2189FE1300C21C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DD2A09E2189FE1300C21C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeliculasBetin.app/PeliculasBetin";
+			};
+			name = Debug;
+		};
+		3DD2A09F2189FE1300C21C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeliculasBetin.app/PeliculasBetin";
+			};
+			name = Release;
+		};
+		3DD2A0A12189FE1300C21C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeliculasBetin;
+			};
+			name = Debug;
+		};
+		3DD2A0A22189FE1300C21C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeliculasBetinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.PeliculasBetinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeliculasBetin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD2A06D2189FE1100C21C8B /* Build configuration list for PBXProject "PeliculasBetin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2A0982189FE1300C21C8B /* Debug */,
+				3DD2A0992189FE1300C21C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD2A09A2189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2A09B2189FE1300C21C8B /* Debug */,
+				3DD2A09C2189FE1300C21C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD2A09D2189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2A09E2189FE1300C21C8B /* Debug */,
+				3DD2A09F2189FE1300C21C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD2A0A02189FE1300C21C8B /* Build configuration list for PBXNativeTarget "PeliculasBetinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2A0A12189FE1300C21C8B /* Debug */,
+				3DD2A0A22189FE1300C21C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD2A06A2189FE1100C21C8B /* Project object */;
+}
